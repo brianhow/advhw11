@@ -1,3 +1,5 @@
+#!/usr/bin/python2.7
+
 import os
 pas = 0
 fail = 0
