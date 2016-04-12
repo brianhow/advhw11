@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/pythonsa
 
 import os
 pas = 0
