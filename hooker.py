@@ -8,7 +8,7 @@ if os.system("g++ prog.cpp"): #just going to assume .cpp
 	exit(1)
 
 tests = []
-os.system("ls test*.cpp > output.txt") #there are always test*.cpp files, right? otherwise this will give errors. wont even create output.txt - the whole point of this hook was under the assumption we were to expect such things
+os.system("ls test*.cpp > output.txt") #there aasdfre always test*.cpp files, right? otherwise this will give errors. wont even create output.txt - the whole point of this hook was under the assumption we were to expect such things
 with open('output.txt') as f:
 	for line in f:
 		#print line
